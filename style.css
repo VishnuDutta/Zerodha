@@ -621,3 +621,45 @@ table {
     padding: 20px;
 }
 /* Footer Ends here */
+
+.for_lessuser{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0px auto;
+}
+.block_struct{
+    border: 1px solid black;
+    margin: auto auto;
+    width: 60%;
+    text-align: center;
+}
+
+
+
+
+
+
+/* -------------------------------------------------- */
+
+@media screen and (max-width: 1000px) {
+    .for_large {
+        display: none;
+    }
+
+    .for_lessuser{
+        display: block;
+    }
+  }
+
+@media screen and (min-width: 1000px) {
+     .for_large{
+        display: block;
+    }
+
+    .for_lessuser{
+        display: none;
+    }
+  }
+
+
+
