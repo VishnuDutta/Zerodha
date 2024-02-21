@@ -194,10 +194,10 @@ table {
 .nav_bar a:hover{
     color: #387ed1;
 }
-
+/* 
 .nav_bar span:hover + .dropdown{
     display: block;
-}
+} */
 
 
 .relative{
@@ -210,7 +210,13 @@ table {
     right: 0px;
     box-shadow: 0px 1px 10px 0px rgba(0,0,0,.1);
     z-index: 999;
-    display: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.dropdown.openmenu{
+    max-height: 500px;
 }
 
 .first_slide{
@@ -339,6 +345,11 @@ table {
     border: 1px solid #0000;
     margin-top: 25px;
 }
+
+.hoverbutton:hover{
+    background-color:#222 ;
+}
+
 /* Banner Ends from here */
 
 /* Largest Stock Starts */
@@ -596,6 +607,10 @@ table {
     margin-bottom: 34px;
 }
 
+.hoverlinks:hover{
+    color:#444 ;
+}
+
 /* Free and open market section Ends */
 
 
@@ -699,6 +714,10 @@ table {
     letter-spacing: normal;
     color: #424242;
     text-decoration: none;
+}
+
+.navlinkshover:hover{
+    color: #387ed1;
 }
 
 .ending_textarea{
