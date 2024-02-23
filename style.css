@@ -316,6 +316,7 @@ table {
 }
 .banner_image img{
     max-height: 45vh;
+    width: 100%;
 }
 .banner_text{
     text-align: center;
@@ -936,7 +937,7 @@ table {
 
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 671px){
 
     .banner_image img{
         width: 100%;
