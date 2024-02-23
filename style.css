@@ -315,7 +315,7 @@ table {
     text-align: center;
 }
 .banner_image img{
-    height: 45vh;
+    max-height: 45vh;
 }
 .banner_text{
     text-align: center;
