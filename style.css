@@ -579,6 +579,10 @@ table {
     width: 50%;
 }
 
+.free_open_img img{
+    width: 100%;
+}
+
 .free_open_text{
     width: 50%;
 }
@@ -675,7 +679,7 @@ table {
     width: 25%;
 }
 
-.textarea img{
+.textareaimg{
     height: 20px;
     width: 152px;
     display: block;
@@ -684,15 +688,17 @@ table {
 
 .sociallinks{
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 242px;
-    height: 40px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
 }
 
 .sociallinks img{
     margin-bottom: 18px;
     font-size: 20px;
+    display: inline-block;
+    width: 18px;
 }
 
 .textarea p{
@@ -819,6 +825,279 @@ table {
     .zero_container{
         width: 200px;
     } 
+}
+
+@media screen and (max-width: 768px) {
+   
+    .container {
+        width: 95%;
+    }
+    .banner_text h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .banner_text p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .banner_text button{
+        margin-top: 5px;
+    }
+
+    .trophy_image img{
+        width: 100%;
+    }
+
+    .largest_stock_text h2 {
+        font-size: 25px;
+    }
+    .largest_stock_text p {
+        font-size: 13px;
+    }
+    .largest_stock_l1 li {
+        font-size: 13px;
+    }
+
+    .largest_stock_text img{
+        width: 90%;
+        align-items: center;
+    }
+
+    .largest_stock_text{
+        margin-left: 10px ;
+    }
+
+    .confidence_section_text h2{
+        font-size: 25px;
+    }
+
+    .confidence_text_1 h3{
+        font-size: 17px;
+    }
+
+    .confidence_text_1 p{
+        font-size: 13px;
+    }
+
+    .confidence_section_text{
+        width: 50%;
+    }
+
+    .confidence_section_img{
+        width: 50%;
+    }
+
+    .unbeatable_pricing_flexbox{
+        padding: 10px;
+    }
+
+    .unbeatable_text h2{
+        font-size: 25px;
+    }
+
+    .unbeatable_text p{
+        font-size: 13px;
+    }
+
+    .zero_container p{
+        font-size: 13px;
+    }
+
+    .free_open_text p{
+        font-size: 13px;
+    }
+
+    .zero_account{
+        margin-top: 60px;
+        padding: 20px 0px 40px 0px;
+    }
+
+    .textarea p{
+        font-size: 10px;
+    }
+
+    .textarea h3{
+        font-size: 15px;
+    }
+
+    .textarea a{
+        font-size: 13px;
+    }
+
+    .sociallinks{
+        gap: 15px;
+    }
+
+    .ending_textarea{
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .banner_image img{
+        width: 100%;
+        height: auto;
+    }
+
+    .nav_bar ul li a{
+        display: none;
+    }
+
+    .banner_text h2{
+        font-size: 44px;
+    }
+
+    .banner_text{
+        margin-top: 50px;
+    }
+
+    .banner_text p{
+        font-size: 20px;
+    }
+
+    .largest_stock_flexbox{
+        flex-wrap: wrap;
+    }
+
+    .trophy_image{
+        width: 100%;
+    }
+
+    .largest_stock_text{
+        width: 100%;
+    }
+
+    .trophy_image img{
+        width: 100%;
+        height: auto;
+    }
+
+    .largest_stock_text{
+        margin-top: 30px;
+    }
+
+    .largest_stock_text h2{
+        font-size: 32px;
+    }
+
+    .largest_stock_text p{
+        font-size: 16px;
+    }
+
+    .largest_stock_l1 li{
+        font-size: 16px;
+    }
+
+    .largest_stock_text img{
+        width: 100%;
+        fit
+    }
+
+    .confidence_section_flexbox{
+        flex-wrap: wrap;
+    }
+
+    .confidence_section_text{
+        width: 100%;
+    }
+
+    .confidence_section_img{
+        width: 100%;
+    }
+
+    .confidence_section_text h2{
+        font-size: 32px;
+    }
+
+    .confidence_text_1 h3{
+        font-size: 20px;
+    }
+
+    .confidence_text_1 p{
+        font-size: 16px;
+    }
+
+    .confidence_section{
+        margin-top: 60px;
+    }
+
+    .unbeatable_text{
+        width: 100%;
+    }
+
+    .unbeatable_text h2{
+        font-size: 32px;
+    }
+
+    .unbeatable_text p{
+        font-size: 16px;
+    }
+
+    .unbeatable_pricing_flexbox{
+        gap: 20px;
+    }
+
+    .unbeatable_image{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .zero_container{
+        width: 100%;
+    }
+
+    .zero_container p{
+        font-size: 16px;
+    }
+
+    .free_open_flexbox{
+        flex-wrap: wrap;
+    }
+
+    .free_open_img{
+        width: 100%;
+    }
+
+    .free_open_img img{
+        width: 100%;
+    }
+
+    .free_open_text{
+        width: 100%;
+    }
+
+    .free_open_text p{
+        font-size: 16px;
+    }
+
+    .free_open_flexbox{
+        gap: 30px;
+    }
+
+    .textarea{
+        width: 50%;
+    }
+
+    .textarea h3{
+        font-size: 18px;
+    }
+
+    .textarea a{
+        font-size: 16px;
+    }
+
+
+@media screen and (max-width: 476px){
+   
+    .textarea{
+        width: 100%;
+    }
+
+}
 }
 
 
